@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free crm app Test]">
+  <test thread-count="5" name="End To End Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.freecrm.testcases.ContactPage">
+        <methods>
+          <include name="Teardown"/>
+          <include name="addContact"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.ContactPage -->
+    </classes>
+  </test> <!-- End To End Test(failed) -->
+</suite> <!-- Failed suite [Free crm app Test] -->
